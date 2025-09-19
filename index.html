@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Ruth Lelei — Portfolio</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="favicon.ico">
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="index.html">Ruth Lelei</a>
+    <button id="nav-toggle" aria-controls="main-nav" aria-expanded="false">☰<span class="sr-only">Toggle navigation</span></button>
+    <nav id="main-nav" class="nav" aria-label="Main navigation">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home-hero">
+      <div class="container">
+        <h1>Hi — I'm Ruth. I build web experiences.</h1>
+        <p>IT Officer & Web Researcher — portfolio of projects in web, UX, and data.</p>
+        <a class="btn" href="projects.html">View Projects</a>
+      </div>
+    </section>
+
+    <section class="featured container" aria-labelledby="featured-heading">
+      <h2 id="featured-heading">Featured projects</h2>
+      <div class="grid" id="projects-grid">
+        <!-- Project cards -->
+        <article class="card">
+          <img src="images/project1.jpg" alt="Project 1 screenshot">
+          <h3>Project One</h3>
+          <p>Short description + tech used.</p>
+          <a href="projects.html#project1" class="card-link">Read more</a>
+        </article>
+        <!-- add more cards -->
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Ruth Lelei — Nairobi, Kenya</p>
+      <nav aria-label="Footer">
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
